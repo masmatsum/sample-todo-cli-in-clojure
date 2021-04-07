@@ -1,6 +1,6 @@
 # sample-todo-cli-in-clojure
 
-Clojure 学習のためのサンプル ToDo アプリです。
+Clojure 学習のためのサンプル ToDo アプリです (作成中)。
 CLI で実行します。
 
 ## Commands
