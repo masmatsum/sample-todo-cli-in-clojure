@@ -6,16 +6,16 @@ CLI で実行します。
 ## Commands
 
 ```
-xx add "Watch Tangled movie"  # タイトルを指定してタスクを追加
+lein run add "Watch Tangled movie"  # タイトルを指定してタスクを追加
 
-xx list  # 未完了タスクを表示
-xx list --finished  # 完了タスクを表示
-xx list --all  # 全タスクを表示
+lein run list  # 未完了タスクを表示
+lein run list --finished  # 完了タスクを表示
+lein run list --all  # 全タスクを表示
 
-xx modify 3 "Watch Tangled movie"   # item-id を指定してタスクを修正
-xx finish 3   # item-id を指定してタスクを完了させる
-xx unfinish 3 # item-id を指定してタスクを未完了にする
+lein run modify 3 "Watch Tangled movie"   # item-id を指定してタスクを修正
+lein run finish 3   # item-id を指定してタスクを完了させる
+lein run unfinish 3 # item-id を指定してタスクを未完了にする
 
-xx delete 3 # item-id を指定してタスクを削除
+lein run delete 3 # item-id を指定してタスクを削除
 ```
 
